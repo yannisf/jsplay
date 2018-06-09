@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
+    "run": "node lib/index.js",
     "clean": "rimraf lib"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "del": "^3.0.0",
+    "tslint": "^5.10.0",
     "typescript": "^2.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
